@@ -1,0 +1,22 @@
+Backend Requirements (Install)
+
+1. pip install djangorestframework
+
+## Below given command is to allow the front end site to our backend ##
+2. pip install django-cors-headers
+(After installing add the below given code in required files
+	2.1) In settings.py file
+		i) In INSTALLED_APPS add --> "corsheaders"
+		ii) In MIDDLEWARE add ---> " corsheaders.middleware.CorsMiddleware "
+
+## To solve -->[ Import "numpy" could not be resolved ], install the below given command ##
+3. pip install numpy
+
+## To solve -->[ Import "geojson" could not be resolved ], install the below given command ##
+4. pip install geojson 
+
+## To solve -->[ Import "xarray" could not be resolved ], install the below given command ##
+5. python -m pip install xarray
+
+##To solve -->[ unrecognized engine netcdf4 must be one of: ['store'] ], install the below given command ##
+6. pip install netCDF4
